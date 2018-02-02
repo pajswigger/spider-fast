@@ -11,7 +11,7 @@ class BurpExtender : IBurpExtender, IHttpListener {
     override fun registerExtenderCallbacks(callbacks: IBurpExtenderCallbacks) {
         cb = callbacks
         callbacks.registerHttpListener(this)
-        callbacks.setExtensionName("Spider Lite")
+        callbacks.setExtensionName("Spider Fast")
     }
 
     override fun processHttpMessage(tool: Int, isRequest: Boolean, messageInfo: IHttpRequestResponse) {
