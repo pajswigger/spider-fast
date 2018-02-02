@@ -1,4 +1,4 @@
-#Spider Fast
+# Spider Fast
 
 This Burp extension increased the speed of Spider in some circumstances. Spider can be particularly slow when there are
 large downloads on a site; perhaps PDF or EXE files. Downloading those files does not help Spider find additional links.
